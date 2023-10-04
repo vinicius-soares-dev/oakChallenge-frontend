@@ -1,0 +1,25 @@
+:root {
+    --font-main: 'Onest', sans-serif;
+    --font-secundary: 'Sofia Sans Condensed', sans-serif;
+    --color-background: #260101;
+    --color-font: #F2E7DC;
+    --color-contrast: #A9D9D0;
+    --color-button: #038C7F;
+}
+
+
+*,
+*::before,
+**::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: var(--color-background);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

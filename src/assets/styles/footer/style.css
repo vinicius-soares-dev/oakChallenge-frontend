@@ -1,0 +1,22 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer > .link {
+    text-decoration: none;
+    font-family: var(--font-secundary);
+    color: var(--color-font);
+    letter-spacing: 1pt;
+    text-align: center;
+}
+
+mark {
+    background: transparent;
+    font-family: var(--font-secundary);
+    letter-spacing: 1pt;
+    color: var(--color-contrast);
+    text-decoration: underline;
+}
+

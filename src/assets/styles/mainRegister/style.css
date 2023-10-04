@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    color: var(--color-font);
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    background: var(--color-contrast);
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+form > label {
+    font-family: var(--font-secundary);
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+
+}
+
+form > input {
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    color:#000000;
+}
+
+form > textarea {
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    color:#000000;
+}
+
+button {
+    padding: 1em 2em;
+    border-radius: 6px;
+    border: none;
+    color: var(--color-font);
+    background: var(--color-background);
+    
+}
+
+
